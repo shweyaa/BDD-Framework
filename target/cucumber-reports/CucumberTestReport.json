@@ -6,11 +6,11 @@
         "before": [
           {
             "result": {
-              "duration": 3323406583,
+              "duration": 3305820416,
               "status": "passed"
             },
             "match": {
-              "location": "ServiceHooks.initializeTest()"
+              "location": "ApplicationHooks.initializeTest()"
             }
           }
         ],
@@ -21,11 +21,11 @@
         "after": [
           {
             "result": {
-              "duration": 43209,
+              "duration": 48833,
               "status": "passed"
             },
             "match": {
-              "location": "ServiceHooks.endTest(Scenario)"
+              "location": "ApplicationHooks.endTest(Scenario)"
             }
           }
         ],
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3298771708,
+              "duration": 1417115542,
               "status": "passed"
             },
             "line": 4,
@@ -49,6 +49,54 @@
               "location": "Login.i_am_on_the_Login_page_URL(String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216970000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter userName \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.enter_userName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86979750,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Password  \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.enter_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1676495458,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Submit Button",
+            "match": {
+              "location": "Login.click_Submit_Button()"
+            },
+            "keyword": "Then "
           }
         ]
       }

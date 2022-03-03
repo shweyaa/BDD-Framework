@@ -4,13 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20bb2e7f-ebb0-47d8-bb01-c7c9dbb2ca78" name="Changes" comment="" />
+    <list default="true" id="20bb2e7f-ebb0-47d8-bb01-c7c9dbb2ca78" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/Browsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/CommonFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/CommonFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helper/LoggerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helper/LoggerHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefinitions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepdefinitions/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/feature/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/enums/Browsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/Browsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/CommonFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/CommonFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helper/LoggerHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/helper/LoggerHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stepdefinitions/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stepdefinitions/ServiceHooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Ashish_Extent" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25WGdMQUyMpQBS6GnGDtibB0WjF" />
@@ -25,6 +56,83 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JRunner">
+    <configuration name="LoggerHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helper.LoggerHelper" />
+      <module name="BDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.JRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BDD-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JRunner" />
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="TestNG.TestRunner (1)" />
+        <item itemvalue="Application.LoggerHelper" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,10 +142,24 @@
       <option name="presentableId" value="Default" />
       <updated>1645635515182</updated>
       <workItem from="1645635517195" duration="906000" />
+      <workItem from="1646311991753" duration="1033000" />
+      <workItem from="1646314856125" duration="3542000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
